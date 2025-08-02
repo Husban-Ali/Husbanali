@@ -16,8 +16,8 @@ jobs:
       - name: Make a dummy commit
         run: |
           echo "// Daily commit on $(date)" >> daily-commit.txt
-          git config --global user.email "salishkhannn@gmail.com"
-          git config --global user.name "Chashmishlish"
+          git config --global user.email "alihusban458@@gmail.com"
+          git config --global user.name "Husban-Ali"
           git add .
           git commit -m "Daily GitHub commit [bot]" || echo "No changes to commit"
 
